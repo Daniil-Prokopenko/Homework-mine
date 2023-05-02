@@ -1,0 +1,9 @@
+@font-face {
+    font-display: swap; 
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    src: url('../fonts/Gotham/GothamBold.ttf') format('ttf');
+}

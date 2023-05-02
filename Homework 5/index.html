@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework-5</title>
+</head>
+<body>
+  <form action="#" method="post" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Загальна інформація</legend>
+                <label>Введіть ім'я <input placeholder="Іван Петров Петрович" type="text" name="username"></label>
+                <br>
+                <br>
+                <label>Тут не вводь <input disabled placeholder="Стоп" type="text" name="n-username"></label>
+                <br>
+                <br>
+                <label>Пароль <input type="password" name="userpass"></label>
+                <br>
+                <br>
+                <label>Email <input type="email" name="email"></label>
+                <br>
+                <br>
+                <label> Дата народження <input type="date" name="brth"></label>
+                <br>
+                <br>
+                <label>Вік <input type="number" min="1" max="100" name="age"></label>
+                <br>
+                <br>
+                <div>
+                    <p>Стать
+                        <label><input tabindex="1" type="radio" name="option" value="men">Чоловік</label>
+                        <label><input tabindex="1"  type="radio" name="option" value="women">Жінка</label>
+                        <label> <input tabindex="1" checked type="radio" name="option" value="good">Одобряю</label>
+                    </p>
+                </div>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Додтакова інформація</legend>
+               <label>Ваш улюбленний колір <input type="color" name="color"></label>
+               <br>
+               <label>Вкажіть час <input type="time" name="time"></label>
+               <br>
+               <label>Вкажіть місяць <input type="month" name="month"></label>
+               <br>
+               <label>Телефон <input type="tel" name="telefone"></label>
+               <br>
+               <label>Просто повзунок <input type="range" name="something"></label>
+               <br>
+               <label>Фото <input  type="file" name="foto"></label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Всяка всячина</legend>
+              <div>
+                <p>Хто вам більше до вподоби?
+                    <label>Кіт <input tabindex="2" value="cat"  type="checkbox" name="animal[]"></label>
+                    <label> Пес <input checked tabindex="2" value="dog" type="checkbox" name="animal[]"></label>
+                    <label>Порося <input tabindex="2" value="pig" type="checkbox" name="animal[]"></label>
+                </p>
+              </div>
+               <p> Вибери гру
+                <select name="game">
+                    <option value="TW">The Witcher</option>
+                    <option value="TES">The Elder Scrolls</option>
+                    <option value="Fal">Fallout</option>
+                </select>
+              </p>
+              <p>Не вибереш
+             <select name="n-game"  disabled="disabled">
+                <option value="TW">The Witcher</option>
+                <option value="TES">The Elder Scrolls</option>
+                <option value="Fal">Fallout</option>
+             </select>
+               </p>
+                <p>Вибери фільм
+              <select multiple name="film[]">
+                <option value="LOTR">Володар Персів</option>
+                <option value="GP">Гаррі Потер</option>
+                <option value="WC">Варкарфт</option>
+               </select>
+               </p> 
+        </fieldset>
+        <FIeldset>
+            <button type="submit">Відправити</button>
+            <button type="reset">Очистити</button>
+            <button disabled="disabled">Не чіпай</button>
+        </FIeldset>
+  </form>
+</body>
+</html>
