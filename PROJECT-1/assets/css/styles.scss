@@ -27,10 +27,10 @@ body    {
     @include lh(26);
     color: $color-dark;
     background: url('../img/First-Screen-Bg-Image.jpg');
-    background-size: 100%;
+    background-size: 100% auto;
     background-repeat: no-repeat;
     background-color: $color-white;
-    overflow-x: hidden;
+
 }
 
 .playfair   {

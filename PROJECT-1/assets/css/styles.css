@@ -11,10 +11,9 @@ body {
   line-height: 1.625rem;
   color: #262A3F;
   background: url("../img/First-Screen-Bg-Image.jpg");
-  background-size: 100%;
+  background-size: 100% auto;
   background-repeat: no-repeat;
   background-color: #fff;
-  overflow-x: hidden;
 }
 
 .playfair {
