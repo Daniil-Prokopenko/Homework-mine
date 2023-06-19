@@ -147,7 +147,8 @@ function TaskTen() {
   } while (answer !== '=');
 
   alert('Your number is: ' + middle + ', steps: ' + steps);
-}
+} //Таблиця множення
+
 
 function TaskEleven() {
   for (i = 1; i <= 9; i = i + 1) {

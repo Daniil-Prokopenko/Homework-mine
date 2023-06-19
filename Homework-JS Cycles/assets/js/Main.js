@@ -145,6 +145,7 @@ function TaskTen(){
     alert('Your number is: ' +middle+', steps: ' +steps);
 }
 
+//Таблиця множення
 function TaskEleven(){
     for(i = 1; i <= 9; i = i + 1){
         for(d = 1; d <= 10; d = d+ 1){
