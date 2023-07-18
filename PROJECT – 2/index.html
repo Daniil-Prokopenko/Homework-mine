@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favacion/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favacion/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favacion/favicon-16x16.png">
+    <link rel="manifest" href="assets/favacion/site.webmanifest">
+    <link rel="mask-icon" href="assets/favacion/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="assets/favacion/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="assets/favacion/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <title>Project 2</title>
+    <link rel="stylesheet" href="assets/css/hamburgers.min.css">
+    <link rel="stylesheet" href="assets/plugins/slick/slick.css">
+    <link rel="stylesheet" href="assets/plugins/slick/slick-theme.css">
+    <link type="text/css" rel="stylesheet" href="assets/plugins/gallery/lightgallery.css">
+    <link type="text/css" rel="stylesheet" href="assets/plugins/gallery/lightgallery.css">
+    <link type="text/css" rel="stylesheet" href="assets/plugins/map/leaflet.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+</head>
+<body class="body  gradient">
+        <header id="header">
+            <div id="main-sidebar">
+                <nav class="mob-menu">
+                    <ul>
+                        <li><a href="#">ABOUT US</a></li>
+                        <li><a href="#">PROJECT</a></li>
+                        <li><a href="#">NEWS</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="shadow" onclick="toggleMenu()"></div>
+            <div class="container">
+                <div class="logo">
+                    <a href="#">
+                        <img src="assets/img/Logo.svg" alt="logo-solis">
+                    </a>
+                </div>
+                <nav class="main-menu SansPro">
+                    <ul>
+                        <li><a href="#">ABOUT US</a></li>
+                        <li><a href="#">PROJECT</a></li>
+                        <li><a href="#">NEWS</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </nav>
+                <nav class="icon">
+                    <ul>
+                        <li><a class="svg Fb" href="https://www.facebook.com/" target="_blank" title="facebook">                          
+                            <svg class="fac" width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.71875 9H6.375V16H3.25V9H0.6875V6.125H3.25V3.90625C3.25 1.40625 4.75 0 7.03125 0C8.125 0 9.28125 0.21875 9.28125 0.21875V2.6875H8C6.75 2.6875 6.375 3.4375 6.375 4.25V6.125H9.15625L8.71875 9Z" fill="white"/>
+                                </svg>
+                        </a></li>
+                        <li><a href="https://twitter.com/" target="_blank" title="twitter">
+                            <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14.3438 3.75C14.3438 3.90625 14.3438 4.03125 14.3438 4.1875C14.3438 8.53125 11.0625 13.5 5.03125 13.5C3.15625 13.5 1.4375 12.9688 0 12.0312C0.25 12.0625 0.5 12.0938 0.78125 12.0938C2.3125 12.0938 3.71875 11.5625 4.84375 10.6875C3.40625 10.6562 2.1875 9.71875 1.78125 8.40625C2 8.4375 2.1875 8.46875 2.40625 8.46875C2.6875 8.46875 3 8.40625 3.25 8.34375C1.75 8.03125 0.625 6.71875 0.625 5.125V5.09375C1.0625 5.34375 1.59375 5.46875 2.125 5.5C1.21875 4.90625 0.65625 3.90625 0.65625 2.78125C0.65625 2.15625 0.8125 1.59375 1.09375 1.125C2.71875 3.09375 5.15625 4.40625 7.875 4.5625C7.8125 4.3125 7.78125 4.0625 7.78125 3.8125C7.78125 2 9.25 0.53125 11.0625 0.53125C12 0.53125 12.8438 0.90625 13.4688 1.5625C14.1875 1.40625 14.9062 1.125 15.5312 0.75C15.2812 1.53125 14.7812 2.15625 14.0938 2.5625C14.75 2.5 15.4062 2.3125 15.9688 2.0625C15.5312 2.71875 14.9688 3.28125 14.3438 3.75Z" fill="white"/>
+                                </svg>
+                                
+                        </a></li>
+                        <li><a href="https://www.instagram.com/"  target="_blank" title="instagram">
+                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 3.40625C9.96875 3.40625 11.5938 5.03125 11.5938 7C11.5938 9 9.96875 10.5938 8 10.5938C6 10.5938 4.40625 9 4.40625 7C4.40625 5.03125 6 3.40625 8 3.40625ZM8 9.34375C9.28125 9.34375 10.3125 8.3125 10.3125 7C10.3125 5.71875 9.28125 4.6875 8 4.6875C6.6875 4.6875 5.65625 5.71875 5.65625 7C5.65625 8.3125 6.71875 9.34375 8 9.34375ZM12.5625 3.28125C12.5625 3.75 12.1875 4.125 11.7188 4.125C11.25 4.125 10.875 3.75 10.875 3.28125C10.875 2.8125 11.25 2.4375 11.7188 2.4375C12.1875 2.4375 12.5625 2.8125 12.5625 3.28125ZM14.9375 4.125C15 5.28125 15 8.75 14.9375 9.90625C14.875 11.0312 14.625 12 13.8125 12.8438C13 13.6562 12 13.9062 10.875 13.9688C9.71875 14.0312 6.25 14.0312 5.09375 13.9688C3.96875 13.9062 3 13.6562 2.15625 12.8438C1.34375 12 1.09375 11.0312 1.03125 9.90625C0.96875 8.75 0.96875 5.28125 1.03125 4.125C1.09375 3 1.34375 2 2.15625 1.1875C3 0.375 3.96875 0.125 5.09375 0.0625C6.25 0 9.71875 0 10.875 0.0625C12 0.125 13 0.375 13.8125 1.1875C14.625 2 14.875 3 14.9375 4.125ZM13.4375 11.125C13.8125 10.2188 13.7188 8.03125 13.7188 7C13.7188 6 13.8125 3.8125 13.4375 2.875C13.1875 2.28125 12.7188 1.78125 12.125 1.5625C11.1875 1.1875 9 1.28125 8 1.28125C6.96875 1.28125 4.78125 1.1875 3.875 1.5625C3.25 1.8125 2.78125 2.28125 2.53125 2.875C2.15625 3.8125 2.25 6 2.25 7C2.25 8.03125 2.15625 10.2188 2.53125 11.125C2.78125 11.75 3.25 12.2188 3.875 12.4688C4.78125 12.8438 6.96875 12.75 8 12.75C9 12.75 11.1875 12.8438 12.125 12.4688C12.7188 12.2188 13.2188 11.75 13.4375 11.125Z" fill="white"/>
+                                </svg>                                
+                        </a></li>
+                    </ul>
+                </nav>
+                <button id="hamb-btn" class="hamburger" type="button" onclick="toggleMenu()"> 
+                    <span class="hamburger-box">
+                      <span class="hamburger-inner"></span>
+                    </span>
+                  </button>
+            </div>
+        </header>
+        <main>
+             <section class="section-one">
+                <div class="single-item">
+                    <div class="slide-one">
+                        <div class="container">
+                            <div class="text">
+                                <div class="text-one-section-one Montserrat">SIMPLE & MODERN</div>
+                                <div class="text-two-section-one Montserrat">WE MAKE THE WORLD BEAUTIFUL EVERYDAY</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide-two">
+                        <div class="container">
+                            <div class="text">
+                                <div class="text-one-section-one Montserrat">NEW & IMPRESSIVE</div>
+                                <div class="text-two-section-one Montserrat">WE MAKE THE WORLD BEAUTIFUL EVERYDAY</div>
+                            </div>
+                        </div>
+                    </div>
+                   <div class="slide-three">
+                        <div class="container">
+                            <div class="text">
+                                <div class="text-one-section-one Montserrat">INTERESTING & UNUSUAL</div>
+                                <div class="text-two-section-one Montserrat">WE MAKE THE WORLD BEAUTIFUL EVERYDAY</div>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="slide-four">
+                        <div class="container">
+                            <div class="text">
+                                <div class="text-one-section-one Montserrat">CHEAP & NICE</div>
+                                <div class="text-two-section-one Montserrat">WE MAKE THE WORLD BEAUTIFUL EVERYDAY</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide-five">
+                        <div class="container">
+                            <div class="text">
+                                <div class="text-one-section-one Montserrat">GIGA & CHAD</div>
+                                <div class="text-two-section-one Montserrat">WE MAKE THE WORLD BEAUTIFUL EVERYDAY</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="button"  href="#sectionTwo" id="color">
+                    <svg width="9" height="6" viewBox="0 0 9 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.90479 1.11105C8.9606 1.16685 8.9885 1.23103 8.9885 1.30357C8.9885 1.37612 8.9606 1.44029 8.90479 1.49609L5.00412 5.39676C4.94832 5.45257 4.88415 5.48047 4.8116 5.48047C4.73906 5.48047 4.67488 5.45257 4.61908 5.39676L0.71841 1.49609C0.662606 1.44029 0.634705 1.37612 0.634705 1.30357C0.634705 1.23103 0.662606 1.16685 0.71841 1.11105L1.13694 0.692522C1.19274 0.636718 1.25691 0.608817 1.32946 0.608817C1.402 0.608817 1.46618 0.636718 1.52198 0.692522L4.8116 3.98214L8.10122 0.692522C8.15703 0.636718 8.2212 0.608817 8.29375 0.608817C8.36629 0.608817 8.43046 0.636718 8.48627 0.692522L8.90479 1.11105Z"  fill="white"/>
+                    </svg> 
+                </a>
+                    </section>
+                    <section class="section-two" id="sectionTwo">
+                        <h1 class="headline Montserrat">WHAT WE DO</h1>
+                        <div class="flex-section-two">
+                            <div class="flex-div-one">
+                                <img class="foto-one" src="assets/img/Mask Group (2).png" alt="foto">
+                            </div>
+                            <div class="flex-div-two">
+                                <div class="section-two-text-one Montserrat">ONE WORLD</div>
+                                <div class="section-two-text-two Montserrat">TRADE CENTER</div>
+                                <p class="section-two-text-three OpenSans">Increasing prosperity in our lives can be accomplished by having the right frame of mind. The truth is, our thoughts are very powerful.</p>
+                                <div>
+                                    <div class="button">
+                                        <input type="button" value="MORE DETAILS" class="btn"> 
+                                    </div>
+                                </div>
+                                <div class="map-link">
+                                    <svg width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M6.42857 4.5C6.42857 5.68025 5.46596 6.64286 4.28571 6.64286C3.10547 6.64286 2.14286 5.68025 2.14286 4.5C2.14286 3.31975 3.10547 2.35714 4.28571 2.35714C5.46596 2.35714 6.42857 3.31975 6.42857 4.5ZM8.57143 4.5C8.57143 2.13114 6.65458 0.214285 4.28571 0.214285C1.91685 0.214285 0 2.13114 0 4.5C0 5.0106 0.0585938 5.53795 0.276228 5.99833L3.33147 12.4771C3.49888 12.8454 3.88393 13.0714 4.28571 13.0714C4.6875 13.0714 5.07254 12.8454 5.24833 12.4771L8.2952 5.99833C8.51284 5.53795 8.57143 5.0106 8.57143 4.5Z" fill="#2C4058"/>
+                                        </svg>
+                                        <a href="https://www.google.com/maps/place/1170+Shakespeare+Ave,+Bronx,+NY+10452,+%D0%A1%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B5%D0%BD%D1%96+%D0%A8%D1%82%D0%B0%D1%82%D0%B8+%D0%90%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B8/@40.8357916,-73.9235417,3a,90y,281.61h,80.03t/data=!3m6!1e1!3m4!1skk5hjj-drH1IcteGtBU4nQ!2e0!7i16384!8i8192!4m7!3m6!1s0x89c2f509f1396799:0x9543b074aab447d5!8m2!3d40.8359036!4d-73.9232373!10e5!16s%2Fg%2F11scn98p3q?entry=ttu" class="hover_one section-two-text-four  OpenSans" target="_blank">New York City, United States - 1776 feet</a>  
+                                </div>     
+                            </div>
+                        </div>
+                        <div class="flex-two-section-two">
+                            <div class="flex-div-three-box">
+                                <div class="section-two-text-one Montserrat">INTERNATIONAL</div>
+                                <div class="section-two-text-two Montserrat">COMMERCE CENTRE</div>
+                                <p class="section-two-text-three OpenSans">Successful businesses have many things in common, today we’ll look at the big ‘R’ of recognition and how a digital advertising network may help.</p>
+                                    <div class="button">
+                                        <input type="button" value="MORE DETAILS" class="btn"> 
+                                    </div>
+                                    <div class="map-link">
+                                        <svg width="9" height="14" viewBox="0 0 9 14"fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M6.42857 4.5C6.42857 5.68025 5.46596 6.64286 4.28571 6.64286C3.10547 6.64286 2.14286 5.68025 2.14286 4.5C2.14286 3.31975 3.10547 2.35714 4.28571 2.35714C5.46596 2.35714 6.42857 3.31975 6.42857 4.5ZM8.57143 4.5C8.57143 2.13114 6.65458 0.214285 4.28571 0.214285C1.91685 0.214285 0 2.13114 0 4.5C0 5.0106 0.0585938 5.53795 0.276228 5.99833L3.33147 12.4771C3.49888 12.8454 3.88393 13.0714 4.28571 13.0714C4.6875 13.0714 5.07254 12.8454 5.24833 12.4771L8.2952 5.99833C8.51284 5.53795 8.57143 5.0106 8.57143 4.5Z" fill="#2C4058"/>
+                                            </svg>
+                                            
+                                        <a href="https://www.google.com/maps/place/Islam+Food+Since+1950/@22.3294007,114.1900859,17.04z/data=!4m6!3m5!1s0x340400d54b2b9d2b:0xfc773cd6141ce1b8!8m2!3d22.3292138!4d114.1913909!16s%2Fg%2F1hcbjbjc8?entry=ttu" class="hover_two section-two-text-four  OpenSans" target="_blank">Hong Kong - 1588 feet</a>
+                                    </div>
+                                </div>
+                            <div class="flex-div-four-box">
+                                    <img class="img-two" src="assets/img/foto-div-two-sec-two.jpg" alt="">
+                            </div>
+                        </div>
+                </section>
+                <section class="section-three">
+                    <div class="container" id="scrol">
+                        <h2 class="Montserrat">LATEST NEWS</h2> 
+                        <div class="slick">
+                            <div>
+                                <div class="q" id="card">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="q" id="card_two">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="q" id="card_three">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="q" id="card_four">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="q" id="card_five">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="q" id="card_six">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="section-four">
+                    <div class="container">
+                        <h2 class="h-section-four">GALLERY</h2>
+                        <div class="gallery" id="lightgallery">
+                            <a class="w" href="assets/img/gl-three.jpg" data-lg-size="1024-800"><span class="magnifier" ></span>
+                                <img class="cade"  alt="foto1" src="assets/img/gl-three.jpg" />
+                            </a>
+                            <a href="assets/img/gl-two.jpg" data-lg-size="1024-800"><span class="magnifier" ></span>
+                                <img   alt="foto2" src="assets/img/gl-two.jpg" />
+                            </a>
+                            <a href="assets/img/gl-one.jpg" data-lg-size="1024-800"><span class="magnifier" ></span>
+                                <img   alt="foto3" src="assets/img/gl-one.jpg" />
+                            </a>
+                            <a href="assets/img/gl-four.jpg" data-lg-size="1024-800"><span class="magnifier" ></span>
+                                <img alt="foto4" src="assets/img/gl-four.jpg" />
+                            </a>
+                            <a href="assets/img/gl-five.jpg" data-lg-size="1024-800"><span class="magnifier" ></span>
+                                <img  alt="foto5" src="assets/img/gl-five.jpg" />
+                            </a>
+                        </div>
+                        <div class="position">
+                            <div class="button">
+                                <input type="button" value="SEE MORE" class="btn"> 
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <section class="section-five">
+                <div class="map" id="map" style="aspect-ratio: 9/3;"></div>
+            </section>
+        </main>
+        <footer>
+            <div class="container">
+                <div class="flex-section-five">
+                    <div class="box-user">
+                        <h2 class="Montserrat">GET IN TOUCH</h2>
+                        <div class="flex-box-user">
+                            <div class="flex-box-user-one">
+                                <div class="hover-user"><svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14px" height="14px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve" fill="#7E5AFF" stroke="#7E5AFF"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill="#7E5AFF" d="M32,0C18.746,0,8,10.746,8,24c0,5.219,1.711,10.008,4.555,13.93c0.051,0.094,0.059,0.199,0.117,0.289l16,24 C29.414,63.332,30.664,64,32,64s2.586-0.668,3.328-1.781l16-24c0.059-0.09,0.066-0.195,0.117-0.289C54.289,34.008,56,29.219,56,24 C56,10.746,45.254,0,32,0z M32,32c-4.418,0-8-3.582-8-8s3.582-8,8-8s8,3.582,8,8S36.418,32,32,32z"></path> </g></svg>
+    
+                                    <a class="Montserrat text-box-user" target="_blank" href="https://www.google.com/maps/@35.7040744,139.5577317,3a,75y,286.45h,70.52t/data=!3m6!1e1!3m4!1sgT28ssf0BB2LxZ63JNcL1w!2e0!7i13312!8i6656?entry=ttu">91 Nolan Extensions Suite 670</a>
+                                </div>
+                                <div class="hover-user"><svg width="14px" height="14px" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--fxemoji" preserveAspectRatio="xMidYMid meet" fill="#7E5AFF" stroke="#7E5AFF"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill="#" d="M494.643 412.121l-75.959-75.959c-21.322-21.322-55.892-21.322-77.215 0l-11.884 11.884a71.049 71.049 0 0 0-19.157 34.794c-25.747.481-54.864-3.897-79.768-20.054a390.981 390.981 0 0 1-43.219-37.321a392.97 392.97 0 0 1-31.966-36.134c-19.409-26.076-24.531-57.721-24.013-85.456a71.04 71.04 0 0 0 34.794-19.157l11.884-11.884c21.322-21.322 21.322-55.892 0-77.215L102.181 19.66c-14.215-14.215-37.262-14.215-51.476 0L37.664 32.704C20.946 49.422 12.388 71.196 11.943 93.105c-4.281 46.225 4.572 97.111 25.603 147.158c13.886 33.044 32.951 65.309 56.17 95.299c.293.392.571.789.868 1.18l.034-.026a468.947 468.947 0 0 0 38.271 43.304a471.389 471.389 0 0 0 44.827 39.503l-.152.201a185.851 185.851 0 0 0 8.033 5.761c66.261 49.01 141.154 76.545 210.847 76.541c4.071-.001 8.129-.117 12.165-.306c25.959 3.191 53.065-5.152 72.992-25.079l13.043-13.043c14.214-14.215 14.214-37.262-.001-51.477z"></path></g></svg>
+    
+                                    <a class="Montserrat text-box-user" href="tel: +001 356-868-2454"> +001 356-868-2454</a>
+                                </div>
+                                <div class="hover-user"> <svg fill="#7E5AFF" width="14px" height="14px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>inbox</title> <path d="M0 26.016q0 2.496 1.76 4.224t4.256 1.76h20q2.464 0 4.224-1.76t1.76-4.224v-6.016l-8-8h-16l-8 8v6.016zM4 22.016l5.664-6.016h12.672l5.664 6.016h-5.984v1.984q0 0.832-0.608 1.44t-1.408 0.576h-8q-0.832 0-1.408-0.576t-0.576-1.44v-1.984h-6.016z"></path> </g></svg>
+                                    <a class="Montserrat text-box-user" href="mailto: montichello@service.com">montichello@service.com</a>
+                                </div>
+                                <div class="Montserrat text-box-user"> <svg fill="#7E5AFF" width="14px" height="14px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" transform="rotate(270)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.64"></g><g id="SVGRepo_iconCarrier"> <title>time</title> <path d="M0 16q0-3.232 1.28-6.208t3.392-5.12 5.12-3.392 6.208-1.28q3.264 0 6.24 1.28t5.088 3.392 3.392 5.12 1.28 6.208q0 3.264-1.28 6.208t-3.392 5.12-5.12 3.424-6.208 1.248-6.208-1.248-5.12-3.424-3.392-5.12-1.28-6.208zM4 16q0 3.264 1.6 6.048t4.384 4.352 6.016 1.6 6.016-1.6 4.384-4.352 1.6-6.048-1.6-6.016-4.384-4.352-6.016-1.632-6.016 1.632-4.384 4.352-1.6 6.016zM14.016 16v-5.984q0-0.832 0.576-1.408t1.408-0.608 1.408 0.608 0.608 1.408v4h4q0.8 0 1.408 0.576t0.576 1.408-0.576 1.44-1.408 0.576h-6.016q-0.832 0-1.408-0.576t-0.576-1.44z"></path> </g></svg>
+                                    From 07:05AM to 19:30PM</div>
+                            </div>
+                            <div>
+                                <form class="contact" id="contacts">
+                                    <input type="text" id="username" placeholder="Name">
+                                    <br>
+                                    <input type="email" id="email" placeholder="Email">
+                                    <br>
+                                    
+                                    <input type="tel" id="tel" minlength="9" maxlength="14" placeholder="Mobile number">
+                                    <button type="submit" class="btn">Submit</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-flex">
+                        <div>
+                            <div class="logo">
+                                <a href="#">
+                                    <img src="assets/img/Logo.svg" alt="logo-solis">
+                                </a>
+                            </div>
+                            <div class="footer-text Montserrat">Copyrights © 2020 Montichello</div>
+                        </div>
+                         <div>
+                            <nav class="icon">
+                                <ul>
+                                    <li><a href="https://www.facebook.com/" target="_blank" title="facebook">
+                                        <svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M8.71875 9H6.375V16H3.25V9H0.6875V6.125H3.25V3.90625C3.25 1.40625 4.75 0 7.03125 0C8.125 0 9.28125 0.21875 9.28125 0.21875V2.6875H8C6.75 2.6875 6.375 3.4375 6.375 4.25V6.125H9.15625L8.71875 9Z" fill="white"/>
+                                            </svg>                                
+                                    </a></li>
+                                    <li><a href="https://twitter.com/" target="_blank" title="twitter">
+                                        <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M14.3438 3.75C14.3438 3.90625 14.3438 4.03125 14.3438 4.1875C14.3438 8.53125 11.0625 13.5 5.03125 13.5C3.15625 13.5 1.4375 12.9688 0 12.0312C0.25 12.0625 0.5 12.0938 0.78125 12.0938C2.3125 12.0938 3.71875 11.5625 4.84375 10.6875C3.40625 10.6562 2.1875 9.71875 1.78125 8.40625C2 8.4375 2.1875 8.46875 2.40625 8.46875C2.6875 8.46875 3 8.40625 3.25 8.34375C1.75 8.03125 0.625 6.71875 0.625 5.125V5.09375C1.0625 5.34375 1.59375 5.46875 2.125 5.5C1.21875 4.90625 0.65625 3.90625 0.65625 2.78125C0.65625 2.15625 0.8125 1.59375 1.09375 1.125C2.71875 3.09375 5.15625 4.40625 7.875 4.5625C7.8125 4.3125 7.78125 4.0625 7.78125 3.8125C7.78125 2 9.25 0.53125 11.0625 0.53125C12 0.53125 12.8438 0.90625 13.4688 1.5625C14.1875 1.40625 14.9062 1.125 15.5312 0.75C15.2812 1.53125 14.7812 2.15625 14.0938 2.5625C14.75 2.5 15.4062 2.3125 15.9688 2.0625C15.5312 2.71875 14.9688 3.28125 14.3438 3.75Z" fill="white"/>
+                                            </svg>
+                                            
+                                    </a></li>
+                                    <li><a href="https://www.instagram.com/" target="_blank" title="instagram">
+                                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M8 3.40625C9.96875 3.40625 11.5938 5.03125 11.5938 7C11.5938 9 9.96875 10.5938 8 10.5938C6 10.5938 4.40625 9 4.40625 7C4.40625 5.03125 6 3.40625 8 3.40625ZM8 9.34375C9.28125 9.34375 10.3125 8.3125 10.3125 7C10.3125 5.71875 9.28125 4.6875 8 4.6875C6.6875 4.6875 5.65625 5.71875 5.65625 7C5.65625 8.3125 6.71875 9.34375 8 9.34375ZM12.5625 3.28125C12.5625 3.75 12.1875 4.125 11.7188 4.125C11.25 4.125 10.875 3.75 10.875 3.28125C10.875 2.8125 11.25 2.4375 11.7188 2.4375C12.1875 2.4375 12.5625 2.8125 12.5625 3.28125ZM14.9375 4.125C15 5.28125 15 8.75 14.9375 9.90625C14.875 11.0312 14.625 12 13.8125 12.8438C13 13.6562 12 13.9062 10.875 13.9688C9.71875 14.0312 6.25 14.0312 5.09375 13.9688C3.96875 13.9062 3 13.6562 2.15625 12.8438C1.34375 12 1.09375 11.0312 1.03125 9.90625C0.96875 8.75 0.96875 5.28125 1.03125 4.125C1.09375 3 1.34375 2 2.15625 1.1875C3 0.375 3.96875 0.125 5.09375 0.0625C6.25 0 9.71875 0 10.875 0.0625C12 0.125 13 0.375 13.8125 1.1875C14.625 2 14.875 3 14.9375 4.125ZM13.4375 11.125C13.8125 10.2188 13.7188 8.03125 13.7188 7C13.7188 6 13.8125 3.8125 13.4375 2.875C13.1875 2.28125 12.7188 1.78125 12.125 1.5625C11.1875 1.1875 9 1.28125 8 1.28125C6.96875 1.28125 4.78125 1.1875 3.875 1.5625C3.25 1.8125 2.78125 2.28125 2.53125 2.875C2.15625 3.8125 2.25 6 2.25 7C2.25 8.03125 2.15625 10.2188 2.53125 11.125C2.78125 11.75 3.25 12.2188 3.875 12.4688C4.78125 12.8438 6.96875 12.75 8 12.75C9 12.75 11.1875 12.8438 12.125 12.4688C12.7188 12.2188 13.2188 11.75 13.4375 11.125Z" fill="white"/>
+                                            </svg>                                
+                                    </a></li>
+                                </ul>
+                            </nav>
+                         </div>   
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="assets/js/code.jquery.com_jquery-3.7.0.min.js"></script>
+        <script src="assets/plugins/slick/slick.min.js"></script>
+        <script src="assets/plugins/gallery/lightgallery.min.js"></script>
+        <script src="assets/plugins/gallery/lg-zoom.min.js"></script>
+        <script src="assets/plugins/map/leaflet.js"></script>
+        <script src="assets/plugins/maskedinput.min.js"></script>
+        <script src="assets/js/main.js"></script>
+</body>
+</html>
